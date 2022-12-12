@@ -2,7 +2,7 @@
 
 1)film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en uzun (length) 5 filmi sıralayınız.
 
---select title from film where title like "%n" limit 5
+--select title from film where title like "%n" order by lenght limit 5
 
 2)film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en kısa (length) ikinci(6,7,8,9,10) 5 filmi(6,7,8,9,10) sıralayınız.
 
